@@ -3,38 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Paris</h1>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="submit" value="search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Paris</h1>
+          <p>
+            Tuesday 14:49,scattered clouds
+            <br />
+            Humidity:66%,Wind 3.13km/hr
+          </p>
+        </div>
+        <div>⛅13°</div>
+      </main>
+      <footer>
         <p>
-          Tuesday 14:49,scattered clouds
-          <br />
-          Humidity:66%,Wind 3.13km/hr
+          Coded by Monica Gikaru
+          <a href="https://github.com/Monica-G30/" target="_blank"></a>,is
+          open-sourced-on GitHub
+          <a href="https://github.com/Monica-G30/monics" target="_blank"></a>
+          and hosted on Render
+          <a
+            href="https://dashboard.render.com/static/srv-cs6cc9t6l47c73fc4oug/deploys/dep-cs6cca56l47c73fc4p50"
+            target="_blank"
+          ></a>
         </p>
-      </div>
-      <div>⛅13°</div>
-    </main>
-    <footer>
-      <p>
-        Coded by Monica Gikaru
-        <a href="https://github.com/Monica-G30/" target="_blank"></a>,is
-        open-sourced-on GitHub
-        <a href="https://github.com/Monica-G30/monics" target="_blank"></a>
-        and hosted on Render
-        <a
-          href="https://dashboard.render.com/static/srv-cs6cc9t6l47c73fc4oug/deploys/dep-cs6cca56l47c73fc4p50"
-          target="_blank"
-        ></a>
-      </p>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
