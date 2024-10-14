@@ -15,32 +15,53 @@
   <body>
     <div class="weather-app">
       <header>
-        <form>
-          <input type="search" placeholder="Enter a city..." required />
-          <input type="submit" value="search" />
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            required
+            class="search-form-input"
+          />
+          <input type="submit" value="search" class="search-form-button" />
         </form>
       </header>
       <main>
-        <div>
-          <h1>Paris</h1>
-          <p>
-            Tuesday 14:49,scattered clouds
-            <br />
-            Humidity:66%,Wind 3.13km/hr
-          </p>
+        <div class-="weather-app-data">
+          <div>
+            <h1 class="Weather-app-city">Paris</h1>
+            <p class="Weather-app-details">
+              Tuesday 14:49,scattered clouds
+              <br />
+              Humidity:66%,Wind 3.13km/hr
+            </p>
+          </div>
+          <div class="weather-app-container">
+            <div class="weather-app-icon">⛅</div>
+            <div class="weather-app-temperature">13</div>
+            <div class="weather-app-icon">°C</div>
+          </div>
         </div>
-        <div>⛅13°</div>
       </main>
       <footer>
         <p>
-          Coded by Monica Gikaru
-          <a href="https://github.com/Monica-G30/" target="_blank"></a>,is
-          open-sourced-on GitHub
-          <a href="https://github.com/Monica-G30/monics" target="_blank"></a>
-          and hosted on Render
+          Coded by
+          <a
+            href="https://github.com/Monica-G30/"
+            target="_blank"
+            Monica
+            Gikaru
+          ></a
+          >,is open-sourced-on
+          <a
+            href="https://github.com/Monica-G30/monics"
+            target="_blank"
+            GitHub
+          ></a>
+          and hosted on
           <a
             href="https://dashboard.render.com/static/srv-cs6cc9t6l47c73fc4oug/deploys/dep-cs6cca56l47c73fc4p50"
             target="_blank"
+            Render
           ></a>
         </p>
       </footer>
