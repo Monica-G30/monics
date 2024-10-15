@@ -30,14 +30,13 @@ header {
   padding: 15px 20px;
 }
 .search-form-button {
-  margin-left: 5px;
-  font-size: 16px;
   background-color: #885df1;
-  color: white;
+  padding: 15px 30px;
   border: none;
-  padding: 20px;
-  line-height: 1;
-  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 5px;
+  border-radius: 6px;
+  color: white;
 }
 
 main {
@@ -90,8 +89,8 @@ main {
 
 footer {
   border-top: 1px solid #f9f7fe;
+  padding: 30px 0 0 0;
   text-align: center;
-  padding-top: 15px;
-
-  color: rgba(39, 33, 66, 0.4);
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
 }
