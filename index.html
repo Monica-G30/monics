@@ -20,6 +20,7 @@
             type="search"
             placeholder="Enter a city..."
             required
+            id="search-form-input"
             class="search-form-input"
           />
           <input type="submit" value="search" class="search-form-button" />
@@ -28,7 +29,7 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="Weather-app-city">Paris</h1>
+            <h1 class="Weather-app-city" id="city">Paris</h1>
             <p class="Weather-app-details">
               Tuesday<strong>14:49</strong>,scattered clouds
               <br />
@@ -64,5 +65,6 @@
         </p>
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
